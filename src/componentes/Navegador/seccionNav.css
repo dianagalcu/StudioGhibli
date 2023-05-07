@@ -1,0 +1,45 @@
+.seccionNav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.seccionLogo {
+    background-color: #adedeb;
+}
+
+.logo {
+    margin: 20px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.seccionLinks {
+    background-color: #efeda7;
+    width: 100%;
+}
+
+.seccionLinks ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+
+.seccionLinks ul li {
+    border: 1px solid;
+    padding: 30px 60px;
+    border-radius: 4px;
+    background-color: #079dec;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.seccionLinks li:hover{
+background-color: #9dd0ec;
+}

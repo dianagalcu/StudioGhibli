@@ -1,0 +1,45 @@
+.seccionMenu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.itemsGhibli {
+    background-color: #f1a7eb;
+    width: 100%;
+    padding: 30px;
+}
+
+.itemsGhibli ul {
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.itemsGhibli li:hover{
+background-color: #f3d0dd;
+}
+
+
+.historia,
+.obras,
+.enlaces,
+.referencias {
+    border: 1px solid;
+    padding: 20px 60px;
+    text-align: center;
+    background-color: #f497bb;
+    margin: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.video{
+    background-color: black;
+}
