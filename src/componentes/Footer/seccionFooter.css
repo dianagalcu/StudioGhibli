@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.texto {
+    background-color: #efeda7;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.logos {
+    text-align: center;
+
+}
+
+.logoWhatsapp,
+.logoFacebook,
+.logoInstagram {
+    margin: 20px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  
+}
+
+.formulario {
+    background-color: #9dd0ec;
+    width: 100%;
+    column-count: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.nombre,
+.apellido,
+.contraseña,
+.mensaje {
+    border: 1px solid;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.boton {
+    
+}

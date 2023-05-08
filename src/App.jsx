@@ -1,6 +1,7 @@
 import SeccionNav from "./componentes/Navegador/SeccionNav"
 import SeccionMenu from "./componentes/Menu/SeccionMenu"
 import SeccionNoticias from "./componentes/Noticias/SeccionNoticias"
+import FooterGhibli from "./componentes/Footer/FooterGhibli"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <SeccionNav />
       <SeccionMenu />
       <SeccionNoticias/>
+      <FooterGhibli/>
     </>
   )
 }
